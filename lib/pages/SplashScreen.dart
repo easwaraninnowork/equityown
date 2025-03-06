@@ -24,6 +24,7 @@ class _SplashPageState extends State<SplashPage> {
         futurestring.then((value) =>
        // if(value != null){
         token_value = value!
+
        // }
     );
 
