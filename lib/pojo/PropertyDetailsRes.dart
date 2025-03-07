@@ -32,7 +32,7 @@ class Result {
   String? projectDetails;
   String? status;
   int? value;
-  int? projectedGrossYield;
+  dynamic projectedGrossYield;
   int? tenure;
   String? startDate;
   String? deliveryDate;

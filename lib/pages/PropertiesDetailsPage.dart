@@ -126,7 +126,7 @@ String navigate_id="";
   String address="";
   String fund_return_date="";
   String tenure="";
-  int projected_gross_yield=0;
+  dynamic projected_gross_yield=0;
   String userValue = "";
   int show_in_website = 0;
 

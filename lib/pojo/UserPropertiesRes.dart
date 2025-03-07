@@ -27,7 +27,7 @@ class Result {
   String? lastPageUrl;
   String? nextPageUrl;
   String? path;
-  dynamic? perPage;
+  dynamic perPage;
   String? prevPageUrl;
   int? to;
   int? total;
@@ -101,7 +101,7 @@ class Data {
   String? projectDetails;
   String? status;
   int? value;
-  int? projectedGrossYield;
+  dynamic projectedGrossYield;
   int? tenure;
   String? startDate;
   String? deliveryDate;

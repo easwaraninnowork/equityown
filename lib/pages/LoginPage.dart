@@ -281,6 +281,7 @@ class _LoginPage extends State<LoginPage> {
                                           onCheckboxChanged: (bool value) {
                                             setState(() {
                                               _isChecked = value;
+                                              callLogin();
                                             });
                                           },
                                         );
