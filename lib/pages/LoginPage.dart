@@ -281,6 +281,7 @@ class _LoginPage extends State<LoginPage> {
                                           onCheckboxChanged: (bool value) {
                                             setState(() {
                                               _isChecked = value;
+                                              callLogin();
                                             });
                                           },
                                         );
@@ -416,7 +417,7 @@ class _CustomAlertDialogState extends State<CustomAlertDialog> {
           ],
         ),
       ),
-      actions: [
+      /*actions: [
         TextButton(
           onPressed: () {
             Navigator.of(context).pop();
@@ -432,7 +433,7 @@ class _CustomAlertDialogState extends State<CustomAlertDialog> {
           },
           child: Text('OK'),
         ),
-      ],
+      ],*/
     );
   }
 
