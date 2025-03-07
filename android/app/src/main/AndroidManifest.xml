@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="equityown_new"
+        android:label="equityown"
         android:name="${applicationName}"
         android:icon="@mipmap/e_logo">
         <activity

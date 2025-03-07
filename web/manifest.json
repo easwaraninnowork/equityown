@@ -1,6 +1,6 @@
 {
-    "name": "equityown_new",
-    "short_name": "equityown_new",
+    "name": "equityown",
+    "short_name": "equityown",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

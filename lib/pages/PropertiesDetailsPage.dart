@@ -2365,7 +2365,7 @@ class ShareButton extends StatelessWidget {
       InkWell(
       onTap: () {
         // Share text
-        Share.share('Check out my website https://example.com');
+        Share.share('Check out my website https://equityown.com');
 
         // Share text with subject (optional)
         // Share.share('Check out my website https://example.com', subject: 'Look what I made!');

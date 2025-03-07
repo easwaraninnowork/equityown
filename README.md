@@ -1,4 +1,4 @@
-# equityown_new
+# equityown
 
 A new Flutter project.
 

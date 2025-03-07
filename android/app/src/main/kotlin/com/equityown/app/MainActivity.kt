@@ -1,4 +1,4 @@
-package com.example.equityown_new
+package com.equityown.app
 
 import io.flutter.embedding.android.FlutterActivity
 

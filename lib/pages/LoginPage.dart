@@ -281,7 +281,6 @@ class _LoginPage extends State<LoginPage> {
                                           onCheckboxChanged: (bool value) {
                                             setState(() {
                                               _isChecked = value;
-                                              callLogin();
                                             });
                                           },
                                         );
@@ -323,8 +322,6 @@ class _LoginPage extends State<LoginPage> {
           )),
     );
   }
-
-
 
   List<Widget> _buildIndicator() {
     List<Widget> indicators = [];
@@ -430,6 +427,7 @@ class _CustomAlertDialogState extends State<CustomAlertDialog> {
           onPressed: () {
             // Handle the action when the user presses OK
             print('Checkbox is checked: $_isChecked');
+            //callLogin();
             Navigator.of(context).pop();
           },
           child: Text('OK'),
